@@ -10,6 +10,7 @@ namespace DemoLibrary
 {
     public static class ApiHelper
     {
+        // static: open it once as an entire application
         public static HttpClient ApiClient { get; set; }
 
         public static void InitializeClient()
